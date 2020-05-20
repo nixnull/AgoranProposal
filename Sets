@@ -1,0 +1,144 @@
+Title: Sets v0.9
+Author: nch
+Co-Authors: Trigon,
+AI: 3
+
+Enact a new Power=1 rule titled "Cards & Sets" with the text:
+
+      Cards are a type of asset with a corresponding Product. Products are
+      also assets. The types of Cards and their corresponding Products are:
+
+      * Victory Cards and Victory Points.
+
+      * Justice Cards and Blot-B-Gones
+
+      * Legislative Cards and Pendants
+
+      * Voting Cards and Voting Proxies
+
+      A player CAN, by announcement, pay a 'set' of X Cards of the same type
+      to create in eir possession Y corresponding Products. The value of X
+      determines the value of Y in the following ways:
+
+      * 1 Card = 1 Product
+
+      * 2 Cards = 3 Products
+
+      * 3 Cards = 6 Products
+
+      * 4 Cards = 10 Products
+
+      A player CANNOT pay more than 4 Cards as one 'set'.
+
+      Cards and Products are tracked by the Treasuror.
+
+For each player that is not a zombie, create one of each type of card in eir
+possession.
+
+[The core of this proposal. Collect cards to make the other assets.
+
+I've been considering whether to have the Treasuror track everything or make a
+new role. I think there's pros and cons to both. I don't want to overtax the
+Treasuror but I also don't want to split rule-defined assets across multiple
+officers if it's not necessary.
+
+Also I'm not happy with Victory Points or Voting Proxies. Name suggestions for
+those are welcome.]
+
+Amend rule 2499 "Welcome Packages" by replacing:
+
+      When a player receives a Welcome Package, e earns 10 coins.
+
+with:
+
+      When a player receives a Welcome Package, e earns 10 coins and one of
+      each type of Card defined in the rules.
+
+[Simple Welcome package addition]
+
+Amend rule 2483 "Economics" by removing the following line:
+
+      A player CAN win the game by paying a fee of 1,000 Coins.
+
+[Ultimately counter to an economy where we want constant trading and asset
+movement.]
+
+Enact a new Power=1 rule titled "VP Wins" with the following text:
+
+      If a player has 20 more Victory Points than any other player, e can win
+      by announcement. When a player wins this way, destroy all Cards and
+      their corresponding Products. Then, for each player create 1 card of
+      each type in eir possession.
+
+[Exactly what it says on the tin.]
+
+Amend rule 2555 "Blots" by replacing the following paragraph:
+
+      If a person (the penitent) has neither gained blots nor had more
+      than 2 blots expunged from emself in the current Agoran week, then
+      any player (the confessor) who has not, by this mechanism,
+      expunged any blots in the current Agoran week CAN expunge 1 blot
+      from the penitent, by announcement.
+
+with:
+
+      Any player CAN, by announcement, expunge a blot from a specified person
+      (or emself if no one is specified) by paying a fee of one Blot-B-Gone.
+
+[Pretty straightforward, now you need to use Blot-B-Gones to get rid of Blots
+(except for the fugitive decay, I left that in).]
+
+Amend rule 2350 "Proposals" by replacing:
+
+      Creating a proposal adds it to the Proposal Pool.
+
+with:
+
+      A player CAN add a proposal to the Proposal Pool by paying one Pendant.
+
+[Make Pendants do the pending thing.]
+
+Amend rule 2422 "Voting Strength" by adding:
+
+      A player CAN pay 1 Voting Proxy to increase eir voting strength on a
+      specified Agoran decision by 1. E may do so up to 3 times for a single
+      decision.
+
+[This makes proxies pretty flexible actually, maybe too much? But I think it's
+fun and can at most double your base power.]
+
+Amend rule 2476 Ownership by removing:
+
+      Assets owned by the Lost and Found Department can be transferred or
+      destroyed by any player without objection.
+
+Create a new Power=1 rule titled "VP Auctions" with the following text:
+
+      Once a week the Treasuror CAN and SHOULD initiate an auction. The first
+      lot for this auction is a Victory Card created in Agora's possession
+      when the auction is initiated. The second lot is all of any single type
+      of asset owned by the Lost and Found Department. The Treasuror is the
+      Auctioneer for this auction and the minimum bid is 1 coin.
+
+[Would love some feedback here. I personally love this idea conceptually but I
+want it to be manageable for the Treasuror.]
+
+Create a new Power=1 rule titled "Card Administration" with the following
+text:
+
+      Justice Cards are associated with the Ministry of Justice. Legislative
+      Cards are associated with the Ministry of Legislation. Voting Cards are
+      associated with the ministry of Participation.
+
+      Officers CAN, once per month and by announcement, create a Card in the
+      possession of another player under the following conditions:
+
+      * the Card is associated with a ministry that is an in the interest
+         switch of at least one office the officer holds AND
+
+      * the player receiving the Card does not hold an office with the Card's
+         associated ministry in its interests.
+
+[I feel like the wording of this could be simplified? Also, should Speaker and
+Prime Minister be excluded from the restrictions on the receiving player? As
+it stands they basically can't receive cards this way at all.]
