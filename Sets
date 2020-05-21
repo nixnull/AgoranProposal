@@ -1,6 +1,6 @@
-Title: Sets v1.0
+Title: Sets v1.2
 Author: nch
-Co-Authors: Trigon, Falsifian, PSS, Jason Cobb
+Co-Authors: Trigon, Falsifian, PSS, Jason, Aris
 AI: 3
 
 Enact a new Power=1 rule titled "Cards & Sets" with the text:
@@ -16,9 +16,9 @@ Enact a new Power=1 rule titled "Cards & Sets" with the text:
 
       * Voting Cards and Extra Votes
 
-      A player CAN, by announcement, pay a 'set' of X Cards of the same type
-      to create in eir possession Y corresponding Products. The value of X
-      determines the value of Y in the following ways:
+      A player CAN pay a 'set' of X Cards of the same type to earn Y
+      corresponding Products. The value of X determines the value of Y in the
+      following ways:
 
       * 1 Card = 1 Product
 
@@ -32,8 +32,7 @@ Enact a new Power=1 rule titled "Cards & Sets" with the text:
 
       Cards and Products are tracked by the Treasuror.
 
-For each player that is not a zombie, create one of each type of card in eir
-possession.
+For each player that is not a zombie, grant em 1 card of each type.
 
 [The core of this proposal. Collect cards to make the other assets.
 
@@ -67,8 +66,8 @@ Enact a new Power=1 rule titled "VP Wins" with the following text:
 
       If a player has at least 20 more Victory Points than any other player, e
       can win by announcement. When a player wins this way, destroy all Cards
-      and their corresponding products. Then, for each non-zombie player create
-      1 card of each type in eir possession.
+      and their corresponding products. Then, for each non-zombie player, grant
+      them 1 card of each type.
 
 [Exactly what it says on the tin.]
 
@@ -90,7 +89,10 @@ with:
 
 Amend rule 2350 "Proposals" by replacing:
 
-      Creating a proposal adds it to the Proposal Pool.
+      Creating a proposal adds it to the Proposal Pool. Once a proposal
+      is created, neither its text nor any of the aforementioned
+      attributes can be changed. The author (syn. proposer) of a
+      proposal is the person who submitted it.
 
 with:
 
@@ -100,28 +102,29 @@ with:
       adds it to the Proposal Pool by this method, e is added to the list of
       co-authors.
       
-      The Promotor CAN, once a week and without objection, add a propsoal to
-      the Proposal Pool. E SHOULD NOT do so if the author of the proposal has
-      at least one Pendant or Legislative Card.
+      Once a proposal is created, neither its text nor any of the
+      aforementioned attributes can be changed, except by the mechanisms in 
+      this rule. The author (syn. proposer) of a proposal is the person who
+      submitted it.
+
+      The Promotor CAN, once a week and with 2 support, add a proposal to the
+      Proposal Pool. E SHOULD NOT do so if the author of the proposal has at
+      least one Pendant or Legislative Card.
 
 [Make Pendants do the pending thing. Making the pender a co-author ties into
 lime ribbons/glitter. Add a safeguard to let the promotor pend proposals when
 it's otherwise not possible.]
 
 Amend rule 2422 "Voting Strength" by adding:
-
-      A player CAN, by announcement, pay 1 Extra Vote and specify a current
-      Agoran decision on which e is a voter. Eir voting strength on that
-      decision is 1 greater for each time e has done so. E CANNOT do so more
-      than 3 times on the same decision.
+      
+      A player can Buy Strength by paying 1 Extra Vote and specifing a current
+      Agoran decision on which e is a voter. For each time a player has Bought
+      Strength on a decision, eir voting strength is 1 greater on that
+      decision. A player CANNOT Buy Strength for the same decision more than 3
+      times.
 
 [This makes proxies pretty flexible actually, maybe too much? But I think it's
 fun and can at most double your base power.]
-
-Amend rule 2476 Ownership by removing:
-
-      Assets owned by the Lost and Found Department can be transferred or
-      destroyed by any player without objection.
 
 Create a new Power=1 rule titled "VP Auctions" with the following text:
 
@@ -145,8 +148,8 @@ following text:
 
       The player who proposed the proposal with the greatest F/A, as defined in
       rule 955, among all proposals assessed in the last 7 days CAN once earn
-      one Legislative Card in eir possession. If there is a tie, all authors
-      of the tied proposals may do so once each.
+      one Legislative Card. If there is a tie, all authors of the tied
+      proposals may do so once each.
       
 [This introduces 4 (or more!) Legislative Cards per month. My math says that
 this, along with the 6 that can be created by officers should be enough. But
@@ -159,14 +162,16 @@ text:
       Cards are associated with the Ministry of Legislation. Voting Cards are
       associated with the ministry of Participation.
 
-      Officers CAN, once per month and by announcement, create a Card in the
-      possession of any other non-zombie player under the following conditions:
-
+      Officers CAN, once per month and by announcement, grant another player a
+      specified type of card under the following conditions:
+      
       * the officer holds at least one office with the Card's associated
-        ministry in its interests AND
+        ministry in its interests,
 
       * the player receiving the Card does not hold an office with the Card's
-        associated ministry in its interests.
+        associated ministry in its interests, AND
+        
+      * the player receiving the Card is not a zombie.
 
 [I like this system a lot but I note the PM and Speaker can't receive cards
 this way. I'm open to patches but I think they'll likely be able to trade the
