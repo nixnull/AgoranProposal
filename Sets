@@ -1,4 +1,4 @@
-Title: Sets v0.9
+Title: Sets v1.0
 Author: nch
 Co-Authors: Trigon, Falsifian, PSS, Jason Cobb
 AI: 3
@@ -168,6 +168,7 @@ text:
       * the player receiving the Card does not hold an office with the Card's
         associated ministry in its interests.
 
-[I feel like the wording of this could be simplified? Also, should Speaker and
-Prime Minister be excluded from the restrictions on the receiving player? As
-it stands they basically can't receive cards this way at all.]
+[I like this system a lot but I note the PM and Speaker can't receive cards
+this way. I'm open to patches but I think they'll likely be able to trade the
+cards they can create for the ones they need, so I'm not immediately
+concerned.]
