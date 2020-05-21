@@ -14,7 +14,7 @@ Enact a new Power=1 rule titled "Cards & Sets" with the text:
 
       * Legislative Cards and Pendants
 
-      * Voting Cards and Voting Proxies
+      * Voting Cards and Extra Votes
 
       A player CAN, by announcement, pay a 'set' of X Cards of the same type
       to create in eir possession Y corresponding Products. The value of X
@@ -42,7 +42,7 @@ new role. I think there's pros and cons to both. I don't want to overtax the
 Treasuror but I also don't want to split rule-defined assets across multiple
 officers if it's not necessary.
 
-Also I'm not happy with Victory Points or Voting Proxies. Name suggestions for
+Also I'm not happy with Victory Points or Extra Votes. Name suggestions for
 those are welcome.]
 
 Amend rule 2499 "Welcome Packages" by replacing:
@@ -65,10 +65,10 @@ movement.]
 
 Enact a new Power=1 rule titled "VP Wins" with the following text:
 
-      If a player has 20 more Victory Points than any other player, e can win
-      by announcement. When a player wins this way, destroy all Cards and
-      their corresponding Products. Then, for each player create 1 card of
-      each type in eir possession.
+      If a player has at least 20 more Victory Points than any other player, e
+      can win by announcement. When a player wins this way, destroy all Cards
+      and their corresponding products. Then, for each non-zombie player create
+      1 card of each type in eir possession.
 
 [Exactly what it says on the tin.]
 
@@ -94,15 +94,26 @@ Amend rule 2350 "Proposals" by replacing:
 
 with:
 
-      A player CAN add a proposal to the Proposal Pool by paying one Pendant.
+      If a proposal was created in the last week and has not been added to the
+      proposal pool, any player CAN add it to the Proposal Pool by paying one
+      Pendant. When a player who is not the author or a co-author of a proposal
+      adds it to the Proposal Pool by this method, e is added to the list of
+      co-authors.
+      
+      The Promotor CAN, once a week and without objection, add a propsoal to
+      the Proposal Pool. E SHOULD NOT do so if the author of the proposal has
+      at least one Pendant or Legislative Card.
 
-[Make Pendants do the pending thing.]
+[Make Pendants do the pending thing. Making the pender a co-author ties into
+lime ribbons/glitter. Add a safeguard to let the promotor pend proposals when
+it's otherwise not possible.]
 
 Amend rule 2422 "Voting Strength" by adding:
 
-      A player CAN pay 1 Voting Proxy to increase eir voting strength on a
-      specified Agoran decision by 1. E may do so up to 3 times for a single
-      decision.
+      A player CAN, by announcement, pay 1 Extra Vote and specify a current
+      Agoran decision on which e is a voter. Eir voting strength on that
+      decision is 1 greater for each time e has done so. E CANNOT do so more
+      than 3 times on the same decision.
 
 [This makes proxies pretty flexible actually, maybe too much? But I think it's
 fun and can at most double your base power.]
@@ -114,14 +125,32 @@ Amend rule 2476 Ownership by removing:
 
 Create a new Power=1 rule titled "VP Auctions" with the following text:
 
-      Once a week the Treasuror CAN and SHOULD initiate an auction. The first
-      lot for this auction is a Victory Card created in Agora's possession
-      when the auction is initiated. The second lot is all of any single type
-      of asset owned by the Lost and Found Department. The Treasuror is the
-      Auctioneer for this auction and the minimum bid is 1 coin.
+      Once a week the Treasuror CAN and SHOULD initiate an auction. The auction
+      has the following lots:
+      
+      * one Victory Card, created in the possession of Agora when the auction
+        is initiated AND
+      
+      * all of any single type of asset currently own by the Lost and Found
+        Department, if any.
+      
+      The Treasuror is the auctioneer for this auction, and may order the lots
+      as e chooses. The minimum bid for this auction is 1 coin.
 
-[Would love some feedback here. I personally love this idea conceptually but I
-want it to be manageable for the Treasuror.]
+[This is the primary way for Victory Cards to be created. Also adds a more
+interesting way to put lost assets back into circulation.]
+
+Create a new Power=1 rule titled "Popular Proposal Proposer Privilege" with the
+following text:
+
+      The player who proposed the proposal with the greatest F/A, as defined in
+      rule 955, among all proposals assessed in the last 7 days CAN once earn
+      one Legislative Card in eir possession. If there is a tie, all authors
+      of the tied proposals may do so once each.
+      
+[This introduces 4 (or more!) Legislative Cards per month. My math says that
+this, along with the 6 that can be created by officers should be enough. But
+time will tell for sure.]
 
 Create a new Power=1 rule titled "Card Administration" with the following
 text:
@@ -131,13 +160,13 @@ text:
       associated with the ministry of Participation.
 
       Officers CAN, once per month and by announcement, create a Card in the
-      possession of another player under the following conditions:
+      possession of any other non-zombie player under the following conditions:
 
-      * the Card is associated with a ministry that is an in the interest
-         switch of at least one office the officer holds AND
+      * the officer holds at least one office with the Card's associated
+        ministry in its interests AND
 
       * the player receiving the Card does not hold an office with the Card's
-         associated ministry in its interests.
+        associated ministry in its interests.
 
 [I feel like the wording of this could be simplified? Also, should Speaker and
 Prime Minister be excluded from the restrictions on the receiving player? As
