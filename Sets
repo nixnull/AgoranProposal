@@ -34,15 +34,7 @@ Enact a new Power=1 rule titled "Cards & Sets" with the text:
 
 For each player that is not a zombie, grant em 1 card of each type.
 
-[The core of this proposal. Collect cards to make the other assets.
-
-I've been considering whether to have the Treasuror track everything or make a
-new role. I think there's pros and cons to both. I don't want to overtax the
-Treasuror but I also don't want to split rule-defined assets across multiple
-officers if it's not necessary.
-
-Also I'm not happy with Victory Points or Extra Votes. Name suggestions for
-those are welcome.]
+[The core of this proposal. Collect cards to make the other assets.]
 
 Amend rule 2499 "Welcome Packages" by replacing:
 
@@ -65,9 +57,9 @@ movement.]
 Enact a new Power=1 rule titled "VP Wins" with the following text:
 
       If a player has at least 20 more Victory Points than any other player, e
-      can win by announcement. When a player wins this way, destroy all Cards
+      CAN win by announcement. When a player wins this way, destroy all Cards
       and their corresponding products. Then, for each non-zombie player, grant
-      them 1 card of each type.
+      em 1 card of each type.
 
 [Exactly what it says on the tin.]
 
