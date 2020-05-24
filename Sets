@@ -58,7 +58,7 @@ Enact a new Power=1 rule titled "VP Wins" with the following text:
 
       If a player has at least 20 more Victory Points than any other player, e
       CAN win by announcement. When a player wins this way, all Cards and all
-      Products are destroyed. Then, for each non-zombie player, grant em 1 card
+      Products are destroyed. Then each non-zombie player is granted em 1 card
       of each type.
 
 [Exactly what it says on the tin.]
@@ -104,12 +104,11 @@ Create a new Power=1 rule titled "Pending Proposals" with the following text:
       is not listed in the list of co-authors of the proposal, e is added to
       the list of co-authors.
       
-      
       The Promotor CAN, once a week and with 2 support, flip the Pend switch of
       a proposal in the Proposal Pool to True. E SHOULD NOT do so if the author
       of the proposal has at least one Pendant or Legislative Card.
       
-      A proposal with a Pend switch set to True is a 'pending' proposal.
+      A proposal with a Pend switch set to True is 'pending'.
 
 [Basically pending is a separate mechanic from the Pool, so that it interferes
 with long standing rules about the pool much less.]
