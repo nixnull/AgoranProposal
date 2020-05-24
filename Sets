@@ -1,12 +1,12 @@
-Title: Sets v1.2
+Title: Sets v1.3
 Author: nch
-Co-Authors: Trigon, Falsifian, PSS, Jason, Aris
+Co-Authors: Trigon, Falsifian, PSS, Jason, Aris, G., 
 AI: 3
 
 Enact a new Power=1 rule titled "Cards & Sets" with the text:
 
-      Cards are a type of asset with a corresponding Product. Products are
-      also assets. The types of Cards and their corresponding Products are:
+      Cards are a type of currency with a corresponding Product. Products are
+      also currencies. The types of Cards and their corresponding Products are:
 
       * Victory Cards and Victory Points.
 
@@ -57,9 +57,9 @@ movement.]
 Enact a new Power=1 rule titled "VP Wins" with the following text:
 
       If a player has at least 20 more Victory Points than any other player, e
-      CAN win by announcement. When a player wins this way, destroy all Cards
-      and their corresponding products. Then, for each non-zombie player, grant
-      em 1 card of each type.
+      CAN win by announcement. When a player wins this way, all Cards and all
+      Products are destroyed. Then, for each non-zombie player, grant em 1 card
+      of each type.
 
 [Exactly what it says on the tin.]
 
@@ -85,31 +85,66 @@ Amend rule 2350 "Proposals" by replacing:
       is created, neither its text nor any of the aforementioned
       attributes can be changed. The author (syn. proposer) of a
       proposal is the person who submitted it.
-
+      
 with:
 
-      If a proposal was created in the last week and has not been added to the
-      proposal pool, any player CAN add it to the Proposal Pool by paying one
-      Pendant. When a player who is not the author or a co-author of a proposal
-      adds it to the Proposal Pool by this method, e is added to the list of
-      co-authors.
+      Creating a proposal adds it to the Proposal Pool. Once a proposal
+      is created, neither its text nor any of the aforementioned
+      attributes can be changed except as described in the rules. The author
+      (syn. proposer) of a proposal is the person who submitted it.
+
+[I moved all the pending stuff out of here, but still modified the language
+to allow the co-author mechanic.]
+
+Create a new Power=1 rule titled "Pending Proposals" with the following text:
+
+      Pend is a proposal switch with possible values True or False and default
+      value False. Any player CAN pay 1 Pendant to flip the Pend switch of a
+      specified proposal to True. If the player did not create the proposal and
+      is not listed in the list of co-authors of the proposal, e is added to
+      the list of co-authors.
       
-      Once a proposal is created, neither its text nor any of the
-      aforementioned attributes can be changed, except by the mechanisms in 
-      this rule. The author (syn. proposer) of a proposal is the person who
-      submitted it.
+      
+      The Promotor CAN, once a week and with 2 support, flip the Pend switch of
+      a proposal in the Proposal Pool to True. E SHOULD NOT do so if the author
+      of the proposal has at least one Pendant or Legislative Card.
+      
+      A proposal with a Pend switch set to True is a 'pending' proposal.
 
-      The Promotor CAN, once a week and with 2 support, add a proposal to the
-      Proposal Pool. E SHOULD NOT do so if the author of the proposal has at
-      least one Pendant or Legislative Card.
+[Basically pending is a separate mechanic from the Pool, so that it interferes
+with long standing rules about the pool much less.]
+      
+Amend 1607 Distribution by replacing:
 
-[Make Pendants do the pending thing. Making the pender a co-author ties into
-lime ribbons/glitter. Add a safeguard to let the promotor pend proposals when
-it's otherwise not possible.]
+      The Promotor CAN distribute a proposal which is in the Proposal
+      Pool at any time.
+      
+      In a given Agoran week, the Promotor SHALL distribute each
+      proposal that was in the Proposal Pool at the beginning of that
+      week, except for those excepted from automatic distribution by
+      other rules, or those that are otherwise removed from the Pool.
+      
+with:
+
+      The Promotor CAN distribute a pending proposal which is in the Proposal
+      Pool at any time.
+      
+      In a given Agoran week, the Promotor SHALL distribute each
+      pending proposal that was in the Proposal Pool at the beginning of that
+      week, except for those excepted from automatic distribution by
+      other rules, or those that are otherwise removed from the Pool.
+      
+      If a proposal has been in the proposal pool for more than 7 days and is
+      not pending, the Promotor CAN and SHOULD remove it from the Pool by
+      announcement.
+      
+[This looks long but the actual changes are small. Basically where it says
+someone can distribute a proposal it now specifies a pending proposal. Also
+adds a way to clear out proposals nobody ever pended.]
 
 Amend rule 2422 "Voting Strength" by adding:
       
-      A player can Buy Strength by paying 1 Extra Vote and specifing a current
+      A player can Buy Strength by paying 1 Extra Vote and specifying a current
       Agoran decision on which e is a voter. For each time a player has Bought
       Strength on a decision, eir voting strength is 1 greater on that
       decision. A player CANNOT Buy Strength for the same decision more than 3
@@ -118,30 +153,13 @@ Amend rule 2422 "Voting Strength" by adding:
 [This makes proxies pretty flexible actually, maybe too much? But I think it's
 fun and can at most double your base power.]
 
-Create a new Power=1 rule titled "VP Auctions" with the following text:
-
-      Once a week the Treasuror CAN and SHOULD initiate an auction. The auction
-      has the following lots:
-      
-      * one Victory Card, created in the possession of Agora when the auction
-        is initiated AND
-      
-      * all of any single type of asset currently own by the Lost and Found
-        Department, if any.
-      
-      The Treasuror is the auctioneer for this auction, and may order the lots
-      as e chooses. The minimum bid for this auction is 1 coin.
-
-[This is the primary way for Victory Cards to be created. Also adds a more
-interesting way to put lost assets back into circulation.]
-
 Create a new Power=1 rule titled "Popular Proposal Proposer Privilege" with the
 following text:
 
       The player who proposed the proposal with the greatest F/A, as defined in
       rule 955, among all proposals assessed in the last 7 days CAN once earn
-      one Legislative Card. If there is a tie, all authors of the tied
-      proposals may do so once each.
+      one Legislative Card by announcement. If there is a tie, all authors of
+      the tied proposals may do so once each.
       
 [This introduces 4 (or more!) Legislative Cards per month. My math says that
 this, along with the 6 that can be created by officers should be enough. But
@@ -154,7 +172,7 @@ text:
       Cards are associated with the Ministry of Legislation. Voting Cards are
       associated with the ministry of Participation.
 
-      Officers CAN, once per month and by announcement, grant another player a
+      An officer CAN, once per month and by announcement, grant another player a
       specified type of card under the following conditions:
       
       * the officer holds at least one office with the Card's associated
