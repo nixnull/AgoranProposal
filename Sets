@@ -73,8 +73,8 @@ Amend rule 2555 "Blots" by replacing the following paragraph:
 
 with:
 
-      Any player CAN, by announcement, expunge a blot from a specified person
-      (or emself if no one is specified) by paying a fee of one Blot-B-Gone.
+      Any player CAN expunge a blot from a specified person (or emself if no
+      one is specified) by paying a fee of one Blot-B-Gone.
 
 [Pretty straightforward, now you need to use Blot-B-Gones to get rid of Blots
 (except for the fugitive decay, I left that in).]
@@ -143,11 +143,11 @@ adds a way to clear out proposals nobody ever pended.]
 
 Amend rule 2422 "Voting Strength" by adding:
       
-      A player can Buy Strength by paying 1 Extra Vote and specifying a current
+      A player CAN Buy Strength by paying 1 Extra Vote and specifying a current
       Agoran decision on which e is a voter. For each time a player has Bought
       Strength on a decision, eir voting strength is 1 greater on that
-      decision. A player CANNOT Buy Strength for the same decision more than 3
-      times.
+      decision. A player CANNOT Buy Strength for the same decision more than
+      3 times.
 
 [Inserting this in 2422 is a little wonky, but there's no issues with it afaik.
 I might proposal a somewhat cleaner solution later.]
