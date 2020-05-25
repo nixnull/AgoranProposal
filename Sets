@@ -98,17 +98,17 @@ to allow the co-author mechanic.]
 
 Create a new Power=1 rule titled "Pending Proposals" with the following text:
 
-      Pend is a proposal switch with possible values True or False and default
-      value False. Any player CAN pay 1 Pendant to flip the Pend switch of a
-      specified proposal to True. If the player did not create the proposal and
-      is not listed in the list of co-authors of the proposal, e is added to
-      the list of co-authors.
+      Pended is a proposal switch tracked by the Promotor with possible values
+      True or False and default value False. Any player CAN pay 1 Pendant to
+      flip the Pended switch of a specified proposal to True. If the player did
+      not create the proposal and is not listed in the list of co-authors of
+      the proposal, e is added to the list of co-authors.
       
-      The Promotor CAN, once a week and with 2 support, flip the Pend switch of
-      a proposal in the Proposal Pool to True. E SHOULD NOT do so if the author
-      of the proposal has at least one Pendant or Legislative Card.
+      The Promotor CAN, once a week and with 2 support, flip the Pended switch
+      of a proposal in the Proposal Pool to True. E SHOULD NOT do so if the
+      author of the proposal has at least one Pendant or Legislative Card.
       
-      A proposal with a Pend switch set to True is 'pending'.
+      A proposal with a Pended switch set to True is 'pending'.
 
 [Basically pending is a separate mechanic from the Pool, so that it interferes
 with long standing rules about the pool much less.]
