@@ -191,3 +191,5 @@ following text:
 cards this way. I'm open to patches but I think they'll likely be able
 to trade the cards they can create for the ones they need, so I'm not
 immediately concerned.]
+
+Flip the Pended switch of every proposal in the proposal pool to True.
