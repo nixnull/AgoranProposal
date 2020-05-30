@@ -1,6 +1,6 @@
-Title: Sets v1.3
+Title: Sets v1.4
 Author: nch
-Co-Authors: Trigon, Falsifian, PSS, Jason, Aris, G., 
+Co-Authors: Trigon, Falsifian, PSS, Jason, Aris, G., ais523
 AI: 3
 
 Enact a new Power=1 rule titled "Cards & Sets" with the text:
@@ -90,10 +90,8 @@ Amend rule 2350 "Proposals" by replacing:
 with:
 
       Creating a proposal adds it to the Proposal Pool. Once a proposal
-      is created, neither its text nor any of the aforementioned
-      attributes can be changed except as described in the rules. The
-      author (syn. proposer) of a proposal is the person who submitted
-      it.
+      is created, its text, author, and AI cannot be changed. The author
+      (syn. proposer) of a proposal is the person who submitted it.
 
 [I moved all the pending stuff out of here, but still modified the
 language to allow the co-author mechanic.]
@@ -128,9 +126,9 @@ Amend 1607 Distribution by replacing:
       other rules, or those that are otherwise removed from the Pool.
       
 with:
-
-      The Promotor CAN distribute a pending proposal which is in the
-      Proposal Pool at any time.
+      
+      The Promotor CAN distribute a proposal which is in the Proposal
+      Pool at any time, but SHALL NOT do so unless it is pending.
       
       In a given Agoran week, the Promotor SHALL distribute each
       pending proposal that was in the Proposal Pool at the beginning
