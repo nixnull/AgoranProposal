@@ -1,0 +1,45 @@
+Contract: Needlessly Abstract Exchange
+
+Part I: Definitions
+
+The Needlessly Abstract Exchange (also known as NAX) is a contract which facilitates trading among Agorans by providing a fair third party to manage assets mid-trade.
+
+Any party to this contract is a trader.
+
+The Exchange Manager is a title belonging to a specific trader. If there is no Exchange Manager or the Exchange Manager would be an entity that is not a trader, the entity that has been a trader for the longest (continuously) becomes the Exchange Manager.
+
+The Purse is an integer. If the value of The Purse is indeterminate or ambiguous, it becomes 0.
+
+An Order represents a trade. Orders have a Creater, a Fulfiller, Goods, Fullfillment Conditions, and may have an Expiration Condition (if none is specified, an order has no Expiration Condition). Goods is a list of assets, and Fulfillment Conditions can be any text that describes or could at some point describe any combination of assets, actions, or other conditions. Orders may be closed, pending, or open and are open when created.
+
+Part II: Order Creation and Fulfillment
+
+For every order a trader Creates or attempts to Fulfill, e must first pay 1 coin to this contract (not as part of an order creation or fulfillment) in the same message; otherwise it is INEFFECTIVE. For every coin paid to the contract this way the Purse is increased by 1.
+
+Any trader CAN create an order by paying any (non-zero) number of assets to this contract, specifying Fulfillment Conditions, and optionally specifying Expiration Conditions. E becomes the Creator of the order, and all assets paid become the Goods of the order.
+
+Any trader CAN attempt to fulfill a specified open order by announcement, and by paying any number of assets to the contract, specifying any actions e does in the same message, and specifying any other evidence e has successfully fulfilled the order. The contract becomes pending and e becomes the Fulfiller of the contract.
+
+PART III: Resolving Orders
+
+For each pending order, the Exchange Manager SHALL, in a timely fashion and by announcement, declare the attempt to fulfill Successful or Unsuccessful. E SHALL only declare the attempt Successful if e believes the Fullfillment Conditions have been met and SHALL NOT declare the attempt Unsuccessful if unless e believes the Fullfillment Conditions have not been met.
+
+When the Exchange Manager declares an attempt Successful, e CAN and SHALL transfer the Goods of the order from this contract to the Fulfiller and transfer any assets that were transfered to the contract as part of the fulfillment attempt to the Creater of the order. The order becomes closed.
+
+When the Exchange Manager declares an attempt Unsuccessful, e CAN and SHALL transfer the any assets that were transfered to the contract as part of the fulfillment attempt to the Fulfiller. The order becomes open.
+
+PART IV: Annuling Orders
+
+When the Exchange Manager believes that it would be impossible to fulfill an open order or that the expiration conditions of an open order have been met, e CAN and SHALL, in a timely fashion, Annul the order by transfering all Goods to the Creater of the order. The order becomes closed. When e does so, the Exchange Manager CAN transfer 1 coin from this contract to the creater and SHOULD do so if e believes the reason the order should be annuled was an error, such as a typo or misunderstanding of this contract; if e does the Purse is decreased by one.
+
+The Exchange Manager CAN annul an open order without reason by transfering 1 coin from this contract to the creater. E SHOULD NOT do so unless the creater has made more than 2 orders in the last 7 days.
+
+PART V: NAX Reports
+
+Once a week the Exchange Manager SHALL publish a report. This report SHALL contain a list of any outstanding orders and a list of any orders that have closed in the last week. If it has been more than a week since the last NAX report, this report SHOULD contain all orders that have closed since the last such report. When e publishes such a report, e CAN transfer X coins from this contract to emself, where X is the current value of the purse. When e does so, the purse becomes 0.
+
+PART VI: Election and Management
+
+Any trader may elect any other trader to be the Exchange Manager, replacing the current Exchange Manager, with X support where X is 1 more than half (rounded up) of the number of traders.
+
+The Exchange Manager CAN cap any trader who has created more than 2 orders in the last 7 days by announcement. A trader who has been capped CANNOT create new orders for 7 days from when e made eir last order.
