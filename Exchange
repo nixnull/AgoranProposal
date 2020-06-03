@@ -37,10 +37,10 @@ specifying Expiration Conditions. E becomes the Creator of the order,
 and all assets paid become the Goods of the order.
 
 Any trader CAN attempt to fulfill a specified open order by 
-announcement, and by paying any number of assets to the contract, 
-specifying any actions e does in the same message, and specifying any 
-other evidence e has successfully fulfilled the order. The contract 
-becomes pending and e becomes the Fulfiller of the contract.
+announcement, and by additionally paying any number of assets to the
+contract, specifying any actions e does in the same message, and
+specifying any other evidence e has successfully fulfilled the order.
+The order becomes pending and e becomes the Fulfiller of the order.
 
 PART III: Resolving Orders
 
@@ -48,8 +48,8 @@ For each pending order, the Exchange Manager SHALL, in a timely fashion
 and by announcement, declare the attempt to fulfill Successful or 
 Unsuccessful. E SHALL only declare the attempt Successful if e believes 
 the Fullfillment Conditions have been met and SHALL NOT declare the 
-attempt Unsuccessful if unless e believes the Fullfillment Conditions 
-have not been met.
+attempt Unsuccessful unless e believes the Fullfillment Conditions have
+not been met.
 
 When the Exchange Manager declares an attempt Successful, e CAN and 
 SHALL transfer the Goods of the order from this contract to the 
@@ -58,9 +58,8 @@ as part of the fulfillment attempt to the Creater of the order. The
 order becomes closed.
 
 When the Exchange Manager declares an attempt Unsuccessful, e CAN and 
-SHALL transfer the any assets that were transfered to the contract as 
-part of the fulfillment attempt to the Fulfiller. The order becomes 
-open.
+SHALL transfer any assets that were transfered to the contract as part
+of the fulfillment attempt to the Fulfiller. The order becomes open.
 
 PART IV: Annuling Orders
 
