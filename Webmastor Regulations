@@ -5,7 +5,7 @@ organization on Github. There should be 3 Github Owners at any time.
 
 The Ideal Criteria for a Github Owner are as follows:
 
-* First registered for Agora at least 5 years Agora
+* First registered for Agora at least 5 years ago
 
 * Has been registered in Agora in each of the last 3 years (not 
 necessarily continuously)
@@ -29,7 +29,7 @@ The Maintainer of a repository is the only person who should push
 directly to the repository, unless e has given permission to another 
 person.
 
-If a another person wishes to update a repository, e should do so by
+If another person wishes to update a repository, e should do so by
 creating a fork and a pull request, and letting the maintainer merge the
 request.
 
