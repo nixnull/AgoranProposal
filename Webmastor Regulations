@@ -29,6 +29,10 @@ The Maintainer of a repository is the only person who should push
 directly to the repository, unless e has given permission to another 
 person.
 
+If a another person wishes to update a repository, e should do so by
+creating a fork and a pull request, and letting the maintainer merge the
+request.
+
 The Webmastor is the maintainer of the agoranomic.org repository. E 
 may update the repository only if:
 
@@ -43,9 +47,6 @@ it without objection.
 
 For each repository that represents an office, the current officeholder 
 is the maintainer.
-
-If a person wishes to update a repository, e should do so by creating a 
-fork and a pull request, and letting the maintainer merge the request.
 
 # Live Reports
 
