@@ -1,0 +1,57 @@
+# Github Owners
+
+A Github Owner is a person who is listed as an owner of the Agora 
+organization on Github. There should be 3 Github Owners at any time.
+
+The Ideal Criteria for a Github Owner are as follows:
+
+* First registered for Agora at least 5 years Agora
+
+* Has been registered in Agora in each of the last 3 years (not 
+necessarily continuously)
+
+* Is familiar with git and github
+
+* Is a current player
+
+The Webmastor should always be a Github Owner.
+
+When there are less than 3 Github Owners, the Webmastor should make the 
+closest consenting match to the Ideal Criteria a Github Owner.
+
+When there is a consenting closer match to the Ideal Criteria than a 
+current Github Owner, the Webmastor may demote said current Github owner
+and promote the closer match, with 3 support.
+
+# Maintaining Repositories
+
+The Maintainer of a repository is the only person who should push 
+directly to the repository, unless e has given permission to another 
+person.
+
+The Webmastor is the maintainer of the agoranomic.org repository. E 
+may update the repository only if:
+
+* e does so without objection
+
+* e is only updating dates, numbers, or links
+
+* e is updating the header
+
+The Webmastor is the maintainer of the Header repository. E may update 
+it without objection.
+
+For each repository that represents an office, the current officeholder 
+is the maintainer.
+
+If a person wishes to update a repository, e should do so by creating a 
+fork and a pull request, and letting the maintainer merge the request.
+
+# Live Reports
+
+A Live Report is a webpage that displays a non-official version of an 
+Agora report, with the intent of being updated frequently.
+
+A Live Report SHOULD note that it is unofficial and clearly mark the 
+time (to the minute) and date that it was last updated. It should also 
+link to a copy of the most recent official report.
