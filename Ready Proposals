@@ -1,0 +1,78 @@
+Title: Ready Proposals
+Author: nch
+Co-Authors:
+AI: 3
+
+Repeal R2626 "Certifiable Patches".
+
+Amend R2622, "Pending Proposals", to read in full:
+      
+      Ready Method is an untracked proposal switch with possible values
+      [None, Pended, Special] and default value None. If a proposal has
+      a non-default Ready Method, it is ready.
+      
+      Any player CAN pay 1 Pendant (syn. pend) to flip the Ready Method
+      switch of a specified proposal to Pended. If the player did not
+      create the proposal and is not listed in the list of co-authors of
+      the proposal, e is added to the list of co-authors.
+      
+      The Promotor CAN, without objection, flip the Ready Method of a
+      specified proposal to Special.
+      
+[This is the crux of the change. Replace Pending with a trinary switch,
+letting us distinguish how something was pended/made ready. I also got
+rid of the "once a week" limit on the promotor power and made it
+without objection.]
+      
+Amend R2451, "Executive Orders", by replacing:
+
+      - Manifesto (Promotor): The Prime Minister distributes a specified
+        proposal in the Proposal Pool.
+        
+with:
+
+      - Manifesto (Promotor): The Prime Minister flips the Ready Method
+        of a specified proposal in the Proposal Pool to Special and
+        distributes it.
+
+[Just make this power play nicely with the new switch.]
+      
+Amend R1607, "Distribution", by replacing all instances of "pending"
+with "ready".
+
+[There's 3 such instances and they're all drop in replacements.]
+
+Amend 2625, "Proposal Recycling", to read in full:
+
+      If a referendum on a proposal was resolved as FAILED QUORUM in the
+      last seven days, the Promotor CAN once recycle the proposal by
+      announcement, adding it to the Proposal Pool.
+      
+[I took out the switch flip here because I don't think it's necessary.
+The switch isn't flipped again when the proposal is assessed, so it
+should be the same method as it was originally.]
+
+Amend 2623, "Popular Proposal Proposer Privilege", by replacing:
+
+      The player who proposed the adopted proposal whose referendum had
+      the greatest popularity among all referenda assessed in the last 7
+      days CAN once earn one Legislative Card by announcement, provided
+      that no referendum initiated in the same message as it remains
+      unresolved. If there is a tie, all authors of the tied proposals
+      can do so once each.
+      
+with:
+
+      An Eligible Proposal is one whose Ready Method switch is set to
+      Pended.
+
+      The player who proposed the Eligible Proposal whose referendum had
+      the greatest popularity among all Eligible Proposals whose
+      referenda were assessed in the last 7 days days CAN once earn one
+      Legislative Card by announcement, provided that no referendum
+      initiated in the same message as it remains unresolved. If there
+      is a tie, all authors of the tied Eligible Proposals can do so
+      once each.
+      
+[Tried to make this a tiny bit more readable while I was fixing it. Not
+sure how successful I was.]
