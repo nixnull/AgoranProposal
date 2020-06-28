@@ -16,11 +16,9 @@ Amend R2622, "Pending Proposals", to read in full:
       create the proposal and is not listed in the list of co-authors of
       the proposal, e is added to the list of co-authors.
       
-      The Promotor CAN, once a week and with 2 Support, flip the Ready
-      Method of a specified proposal to Special.
-      
-      Any player CAN, without objection, flip the Ready Method of a
-      specified proposal to Special.
+      The Promotor CAN, once a week and with X+2 Support, flip the Ready
+      Method of a specified proposal to Special. X is equal to the
+      number of times e has done so in the last 7 days.
       
 [This is the crux of the change. Replace Pending with a trinary switch,
 letting us distinguish how something was pended/made ready. I also got
