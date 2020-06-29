@@ -3,6 +3,11 @@ AI: 3
 Author: nch
 Co-authors:
 
+[This is shorter, and IMO, more elegant than the current Ribbon system.
+I removed switches and opted for a system based on platonic gamestate. I
+think this makes more sense for Ribbons. I also cleaned up the language
+a little and moved Glitter back to its own rule where it belongs.]
+
 Amend R2438, "Ribbons", by replacing:
 
       The Tailor is an office, and the recordkeepor of Ribbons.
@@ -51,6 +56,12 @@ with:
       The types of Ribbons, and the method for qualifying for each one,
       are as follows:
       
+and by replacing every remaining instance of "earns" with "qualifies
+for"
+
+[These were already used interchangeably in the existing rule, and
+'earn' has a different meaning elsewhere in the rules.]
+
 and by removing:
 
       While a person qualifies for a type of Ribbon:
@@ -65,9 +76,14 @@ and by removing:
           awarded five or more times within the past 24 hours, e CAN, by
           announcement, award emself that type of Glitter.
           
+[The first clause was moved further up, and the second claus is getting
+moved to the Glitter rule.]
+
 Amend R2602, "Glitter", by adding the following inbetween the first and
 second paragraph:
-
-      Any player CAN award a player (the awardee) a type of Glitter if
-      the awardee has qualified for a Ribbon e already owned in the last
-      7 days.
+      
+      For each time a player (the awardee) has qualified for a type of
+      Ribbon e already owned in the last 7 days, any player CAN award
+      the awardee the corresponding type of Glitter.
+      
+[Works the same way as the longer version above.]
