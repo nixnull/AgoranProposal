@@ -1,0 +1,53 @@
+Title: Ribbon Ribboncutting
+AI: 3
+Author: nch
+Co-authors:
+
+Amend R2438, "Ribbons", by replacing:
+
+      The Tailor is an office, and the recordkeepor of Ribbons.
+      
+      Ribbon Ownership is a secured person switch, tracked by the
+      Tailor in eir monthly report, whose values are the subsets of
+      the set of types of Ribbon, defaulting to the empty set. If the
+      rules are amended to change the types of Ribbon, if a player's
+      Ribbon Ownership is subsequently illegal, then it is updated by
+      removing all nonexistent types rather than resetting the entire
+      value to default.
+      
+      To "award a person a <Ribbon type>" is to add that type of Ribbon
+      to that person's Ribbon Ownership. A person "owns a <Ribbon type>"
+      if that type of Ribbon is an element of eir Ribbon Ownership.
+      
+      A person qualifies for a type of Ribbon if e has earned that type
+      of Ribbon within the preceding 7 days (including earlier in the
+      same message).
+      
+      While a person owns all types of Ribbon, that person can Raise a
+      Banner by announcement. This causes that person to win the game.
+      That person's Ribbon Ownership becomes the empty set.
+      
+      The types of Ribbon, and the methods of obtaining them, are as
+      follows:
+      
+with
+
+      The Tailor is an office, and the Recordkeepor of Ribbons.
+
+      A person has a Ribbon if e has been awarded that type of Ribbon 
+      and eir Ribbon ownership has not been reset since e last was
+      awarded it. If a person has been awarded a Ribbon by any previous
+      Ribbon rules since eir ownership was last reset, then e owns that
+      Ribbon.
+
+      If a player has every type of Ribbon defined in this rule, then e 
+      CAN win by "banner raising" by announcement. When e does so 
+      successfully, eir Ribbon ownership is reset.
+
+      Other rules notwithstanding, any player CAN award a person a 
+      Ribbon by announcement if, and only if, that person has earned
+      it in the last 7 days, does not already have it, and has not
+      had eir Ribbon ownership reset since last earning it.
+
+      The types of Ribbons, and the method for earning each one, are as
+      follows:
