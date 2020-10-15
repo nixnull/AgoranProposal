@@ -10,9 +10,13 @@ Amend R2605, "Ministries", to by replacing:
 
 with:
 
-      Interest is a secured active player switch, tracked by the ADoP, whose possible values are Un (the default) or any Ministry. Once a month a player CAN flip eir own Interest switch by announcement.
+      Interest is a secured active player switch, tracked by the ADoP, 
+      whose possible values are Un (the default) or any Ministry. Once 
+      a month a player CAN flip eir own Interest switch by 
+      announcement.
       
-      A player's voting strength is increased by 2 on proposals whose chamber is the same as eir Interest.
+      A player's voting strength is increased by 2 on proposals whose 
+      chamber is the same as eir Interest.
 
 Amend R2624, "Card Administration", to be titled "Ministry Grants" and to read in full:
 
@@ -23,9 +27,11 @@ Amend R2624, "Card Administration", to be titled "Ministry Grants" and to read i
       Ministry of Legislation: 1 Legislative Card
       Ministry of Participation: 1 Voting Card
       Ministry of Economy: 100 boatloads of coins divided by X, rounded   
-        up; where X is the number of players with their Interest set to Economy.
+        up; where X is the number of players with their Interest set to 
+        Economy.
       
-      A player CAN, once a month, grant any other player with a different interest, eir Interest's associated grant.
+      A player CAN once a month grant eir Ministry's Grant to a 
+      specified player.
 
 need to specify first week of month for interest changes?
 
