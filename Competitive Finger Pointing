@@ -1,19 +1,31 @@
-Title: Competitive Finger Pointing
+Title: Competitive Finger Pointing v2
 AI: 1.7
 Author: nix
 Coauthors: Aris, PSS, ATMunn
 
-Amend R2478, "Vigilante Justice" by adding after the list items:
+Amend R2478, "Vigilante Justice" by adding to the beginning of the 
+list:
 
-    Initiating a Finger Pointing found to be Shenanigans is the class 
-    0+N crime of Unjustified Gesticulation, where N is the number of 
-    times e has previously committed the crime in the current Agoran 
-    Week.
+    - Issuing a Warning to the perp, as described elsewhere;
+
+and by adding after the list items:
+
+    Initiating a Finger Pointing found to be Shenanigans is ILLEGAL 
+    and the Class 0+N Crime of Unjustified Gesticulation, where N is 
+    the number of times e has previously committed the crime in the 
+    current Agoran Week.
 
 and by adding, to the very end of the rule:
 
     The player who initiated the most Finger Pointings that resulted 
-    in an Indictment or Cold Hand of Justice in the previous Agoran 
-    Week CAN once grant emself a Justice Card by announcement.
+    in a Warning, Indictment, or Cold Hand of Justice in the previous 
+    Agoran Week CAN once grant emself a Justice Card by announcement.
 
-[This is more or less functionally the same as a previous version. The main notable difference is that I replaced "previous 7 days" with Agoran Weeks. I just think this is easier to figure out without requiring someone to track it. ]
+Amend R2557 "Sentencing Guidelines" by adding to the end:
+
+    When the rules authorize an investigator to issue a Warning for a 
+    violation, e CAN do so by announcement if the violation is 
+    described by the rules as a "Class N Crime" where N is 0 or an 
+    expression that evaluates to 0.
+
+[There is no ruleset support for class 0 crimes right now. So this version adds support by introducing a new thing the investigator can do called a Warning.]
