@@ -46,7 +46,8 @@ text:
       holder's voting strength is increased by 2 on proposals whose 
       Ministry Impact is set to that Ministry.
 
-(Note that this moves a duty that used to belong to ADoP to Ministor. It just makes a bit more sense here.)
+(Note that this moves a duty that used to belong to ADoP to Ministor. It 
+just makes a bit more sense here.)
       
 When this proposal passes flip the Ministry Interest switch of every 
 office to the value of that office's Interest switch immediately before 
