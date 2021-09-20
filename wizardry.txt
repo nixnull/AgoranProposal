@@ -1,0 +1,67 @@
+Wizardry
+    
+    The Magistrate is an office.
+    
+    Wizard Class is a player switch, with values: Powerless (default), Legal, Authorial, and Persuasive. Wizard Class is tracked by the Magistrate in eir monthly report.
+    
+    Wizard Level is a player switch with values integers 1 (default) through 4. Wizard Level is tracked by the Magistrate in eir monthly report.
+    
+    Wizard Charges is a player switch, with values integers 0 (default) through the max value for Wizard Level. To "spend a charge" is to decrease eir Wizard Charges by 1. A player CAN spend a charge as long as eir Wizard Charges is greater than 0.
+    
+    A player CAN, by announcement, flip eir Wizard Class to a specified value. When e does so from any value other than Powerless, eir Wizard Level is flipped to half eir current Wizard Level and eir Wizard Charges is flipped to 0.
+    
+    At the beginning of the month, every player's Wizard Charges is set to eir Wizard Level.
+
+Wizard Powers
+
+    There are class-based Wizard Powers. A player of the appropriate Wizard Class CAN, by announcement and by fulfilling all of its conditions, use a class-based Wizard Power.
+    
+    Legal Wizards have the following powers:
+        * Bless: spend a charge, specify a player, destroy a blot in 
+          eir possession
+        * Curse: spend two charges, specify a player, create a blot 
+          in eir possession
+        * Equivocate: spend four charges, specify two players, add 
+          their blots balances together, divide that by two (rounded 
+          up), destroy all eir blots and grant both of them that 
+          amount
+        
+    Authorial Wizards have the following powers:
+        * : spend a charge, specify a proposal, pend it
+        * : spend two charges, specify a proposal, unpend it
+        
+    Persuasive Wizards have the following powers:
+        * Buff: spend a charge, specify a proposal, specify a player, 
+          double that player's voting strength on that proposal
+        * : spend a charge, raise eir voting power by 1 on every 
+          proposal for the remainder of the month
+        * Hinder: spend two charges, raise the AI of a proposal by 1
+        
+    There are also level-based Wizard Powers. A player of the appropriate Wizard Level or higher CAN, by announcement and by fulfilling all of its conditions, use a level-based Wizard Power.
+
+    Level 2:
+        * Reserve: 
+    
+    Level 4:
+        * Transmute: spend a charge, specify any class-based Wizard Power and use it as if e were that class. E must meet all of its conditions
+
+Source and Crystals
+
+    Source and Crystals are fungible assets tracked by the Magistrate 
+    in eir weekly report. Source Corruption is a player switch with 
+    integer values 1 (default) to infinity. Source Corruption is 
+    tracked by the Magistrate in eir monthly report.
+
+    A player CAN, by announcement, spend a number of Source equal to eir Source Corruption to create one Crystal in eir possession. When a player does so, eir Source Corruption is increased by 1.
+    
+    A player CAN, by announcement, spend a number of Source equal to eir current Wizard Level to increase eir Wizard Level by one, if it is not already the max value.
+    
+    A player CAN, by announcement, spend a Source to flip eir Wizard Charges to eir Wizard Level.
+    
+    When a player has 5 crystals e CAN, by announcement, Ascend and win the game. 4 days after a player ascends:
+    * all player's Wizard Classes are set to Powerless, then
+    * all player's Wizard Levels are set to half eir current Wizard Level Value (rounded up), then
+    * all player's Wizard Charges are set to the minimum of its current value and eir Wizard Level.
+    
+    A player CAN spend charges equal to eir Wizard Level to create one
+    Source in eir possession.
